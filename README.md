@@ -45,13 +45,7 @@ npm run dev
 
 ## 🧪 Test the API
 
-### Option A: Send raw text via JSON body
 
-```bash
-curl -X POST http://localhost:3000/process-meeting \
-  -H "Content-Type: application/json" \
-  -d '{"text": "Team discussed Q4 marketing strategies. Decision made to focus more on social media ads. John will create a campaign plan by next Monday. Budget proposal due end of week by Sarah."}'
-```
 
 ### Option B: Upload `.txt` file (Linux/macOS/WSL/PowerShell w/ curl.exe)
 
@@ -60,7 +54,7 @@ curl.exe -X POST http://localhost:3000/process-meeting -F "file=@sample-notes/me
 ```
 
 
----
+
 
 
 
