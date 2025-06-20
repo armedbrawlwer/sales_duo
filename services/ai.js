@@ -23,7 +23,7 @@ Respond in JSON format with the following structure:
 `;
 
 async function processMeetingNotes(text) {
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' });
 
   const result = await model.generateContent(promptTemplate(text));
   const response = await result.response;
